@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nikholas117.github.io/CRYPTO.TRACKER.PROJECT/",
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "react": "^18.3.1",
